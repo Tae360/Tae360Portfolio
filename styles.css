@@ -292,7 +292,7 @@ section{
     resize: none;
 }
 .footer{
-    background-color: var(--second-bg-color);  
+     background-color: var(--second-bg-color);  
     padding: 50px 0;
 }
 .footer .social-icons{
@@ -352,6 +352,7 @@ section{
     .home-content{
         align-items: center;
         text-align: center;
+        padding: 2rem;
     }
     .home-img img{
         width: 52vw;
@@ -370,6 +371,27 @@ section{
     .contact form{
         flex-direction: column;
     }   
+     .home-content h1 {
+        font-size: 6.8rem;
+    }
+    .home-content h3 {
+        font-size: 3rem;
+    }
+    .home-content p {
+        font-size: 1.4rem;
+    }
+    .btn{
+        display: inline-block;
+        padding: 1rem 3rem;
+        background: var(--main-color);
+        box-shadow: 0 0 25px var(--main-color);
+        border-radius: 3rem;
+        font-size: 1.3rem;
+        color: black;
+        border: 2px solid transparent;
+        font-weight: 600;
+        transition: 0.3s ease-in-out;
+    }
 }
 
 .projects{
@@ -414,3 +436,8 @@ section{
 .project-card p{
     font-size: 1.6rem;
 }
+.project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px var(--main-color), 0 0 50px var(--main-color);
+}
+
